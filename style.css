@@ -1,0 +1,69 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #444;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* ask */
+    .ask-container {
+        align-self: center;
+        padding: 2rem;
+        width: 20rem;
+        height: fit-content;
+        box-shadow: 4px 4px 15px #ccc;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1, label {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    input[type="text"] {
+        padding: .4rem;
+        width: 80%;
+        border: solid 1px #444;
+        margin: 1rem 0;
+    }
+
+    button {
+        margin: .5rem;
+        padding: .5rem;
+        cursor: pointer;
+    }
+    
+/* Process */
+    .process-container {
+        align-self: center;
+        padding: 2rem;
+        width: 20rem;
+        height: fit-content;
+        box-shadow: 4px 4px 15px #ccc;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+
+/* Result */
+    .result-container {
+        align-self: center;
+        padding: 2rem;
+        width: 20rem;
+        height: fit-content;
+        box-shadow: 4px 4px 15px #ccc;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
