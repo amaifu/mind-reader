@@ -11,20 +11,21 @@
         <div class="ask-container">
             <label>What are you thinking about right now?</label>
             <input type="text" name="clientMind" value="">
-            <button onclick="claimTheMind()">Submit</button>
+            <button id="submitTheMind">Submit</button>
         </div>
         <div class="process-container">
             <h1>Read my mind?</h1>
-            <button>yes, please!</button>
-            <button>no, nevermind</button>
+            <button id="yesGuess">yes, please!</button>
+            <button id="noNvm" onclick="backTo()">no, nevermind</button>
        </div>
        <div class="result-container">
             <h1>I guess, you're thinking about:</h1>
-            <p></p>
+            <input type="text" value="" readonly>
+            <button id="yesGuess" onclick = "backTo()">try again!</button>
        </div>
 
      <!-- Script -->
      <script src="script.js"></script>
-     
+
     </body>
 </html>
